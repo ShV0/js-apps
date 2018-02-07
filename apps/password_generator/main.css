@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css?family=Unica One');
+
+body {
+    font-family: 'Unica One', cursive;
+    line-height: 1;
+    margin: 0;
+    padding: 0;
+    text-transform: uppercase;
+    border: 0;
+    background: rgb(64, 175, 69);
+}
+
+h1 {
+    font-size: 70px;
+    margin-top: 40px;
+    text-align: center;
+    color: rgba(255, 255, 255, .53);
+}
+
+.block {
+    text-align: center;
+}
+
+input[type='number'] {
+    -moz-appearance: textfield;
+}
+input[type='number']::-webkit-inner-spin-button {
+    display: none;
+}
+
+#result {
+    font-family: Arial;
+    font-size: 50px;
+    margin-top: 40px;
+    text-align: center;
+    text-transform: none;
+    color: rgba(255, 255, 255, .8);
+}
+
+.button-number {
+    font-size: 45px;
+    font-weight: bold;
+    display: inline-block;
+    margin: 20px;
+    cursor: pointer;
+    color: #a5d9a7;
+}
