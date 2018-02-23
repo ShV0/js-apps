@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+	background: rgba(0,0,255,0.10);
+}
+
+canvas {
+	position: absolute;
+}
+
+.bm, .bm2 {
+	color: rgba(149, 149, 255, 0.5);
+	font-weight: bold;
+    font-family: Arial;
+    position: fixed;
+    top: 1px;
+    right: 20px;
+    font-size: 60px;
+}
+
+.bm2 {
+	top: auto;
+	bottom: 1px;
+}
